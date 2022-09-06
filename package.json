@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run chrome & npm run firefox",
-    "github": "./node_modules/.bin/cypress run",
-    "chrome": "./node_modules/.bin/cypress run --browser=chrome --headed --record --key 2559c50c-2abd-4d88-a46f-b7c55514972e",
-    "firefox": "./node_modules/.bin/cypress run --browser=firefox --headed",
-    "build": "npm run chrome & npm run firefox"
+    "test": "cypress run",
+    "expect": "cypress-expect --passing 4",
+    "serve": "serve public",
+    "build": "echo 'building app... done!'"
   },
   "author": "",
   "license": "ISC",

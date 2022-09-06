@@ -13,8 +13,10 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          start: npm run github
+          with:
+          browser: chrome
           record: true
+          group: Tests on Chrome
         env:
           # for recording test results and videos to Cypress Dashboard
           CYPRESS_RECORD_KEY: 2559c50c-2abd-4d88-a46f-b7c55514972e
