@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run chrome & npm run firefox",
-    "chrome":"./node_modules/.bin/cypress run --browser=chrome --headed",
-    "firefox":"./node_modules/.bin/cypress run --browser=firefox --headed"
-
+    "chrome": "./node_modules/.bin/cypress run --browser=chrome --headed",
+    "firefox": "./node_modules/.bin/cypress run --browser=firefox --headed",
+    "build": "npm run chrome & npm run firefox"
   },
   "author": "",
   "license": "ISC",
