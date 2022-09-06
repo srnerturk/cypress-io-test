@@ -14,3 +14,6 @@ jobs:
         uses: cypress-io/github-action@v4
         with:
           start: npm run github
+          browser: chrome
+          headless: true
+          key: 2559c50c-2abd-4d88-a46f-b7c55514972e
