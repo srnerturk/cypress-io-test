@@ -14,6 +14,7 @@ jobs:
         uses: cypress-io/github-action@v4
         with:
           start: npm run github
-          browser: chrome
-          headless: true
-          key: 2559c50c-2abd-4d88-a46f-b7c55514972e
+          record: true
+        env:
+          # for recording test results and videos to Cypress Dashboard
+          CYPRESS_RECORD_KEY: ${{2559c50c-2abd-4d88-a46f-b7c55514972e}}
