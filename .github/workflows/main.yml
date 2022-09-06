@@ -17,4 +17,4 @@ jobs:
           record: true
         env:
           # for recording test results and videos to Cypress Dashboard
-          CYPRESS_RECORD_KEY: ${{2559c50c-2abd-4d88-a46f-b7c55514972e}}
+          CYPRESS_RECORD_KEY: 2559c50c-2abd-4d88-a46f-b7c55514972e
