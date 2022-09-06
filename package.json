@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run chrome & npm run firefox",
-    "github": "./node_modules/.bin/cypress run --browser=chrome --key 2559c50c-2abd-4d88-a46f-b7c55514972e",
+    "github": "./node_modules/.bin/cypress run --browser=chrome --record --key 2559c50c-2abd-4d88-a46f-b7c55514972e",
     "chrome": "./node_modules/.bin/cypress run --browser=chrome --headed --record --key 2559c50c-2abd-4d88-a46f-b7c55514972e",
     "firefox": "./node_modules/.bin/cypress run --browser=firefox --headed",
     "build": "npm run chrome & npm run firefox"
